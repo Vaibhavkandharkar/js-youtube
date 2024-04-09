@@ -39,3 +39,22 @@ console.log(typeof myFunction);
 
 
 
+// *******************************************
+
+// Stack (primitive), Heap (Non-primitive)
+
+let myYoutubename = "vaibhavkandharkardotcom"
+
+let anothername = myYoutubename
+ 
+
+let userOne = {
+   email: "user@google.com",
+   upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "vaibhav@google.com"
+console.log(userOne.email);
+console.log(userTwo.email);
