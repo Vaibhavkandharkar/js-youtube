@@ -6,7 +6,7 @@ const score = 100
 const soreValue = 100.3
 
 const isLoggedin = false
-const outsideTemp = nulllet 
+const outsideTemp = null
 let userEmail;
 
 const id = Symbol('123')
