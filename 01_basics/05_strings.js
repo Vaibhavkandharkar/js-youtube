@@ -7,4 +7,12 @@ console.log(name + repoCount + " Value");
 
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
-const gameName = new String('Vaibhav');
+const gameName = new String(0, 4);
+console.log(newString);
+
+const anotherString = gameName.slice(-8, 4);
+console.log(anotherString);
+
+
+const newString = "    vaibhav   " 
+console.log(newString.trim());
