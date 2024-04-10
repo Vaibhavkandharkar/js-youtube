@@ -14,5 +14,13 @@ const anotherString = gameName.slice(-8, 4);
 console.log(anotherString);
 
 
-const newString = "    vaibhav   " 
-console.log(newString.trim());
+const newStringOne = "    vaibhav   " 
+console.log(newStringOne.trim());
+console.log(newStringOne);
+
+const url="https://vaibhav.com/vaibhav%20kandharkar"
+console.log(url.replace('%20','-'))
+
+console.log(url.includes('vaibhav'))
+
+console.log(gameName.split('-'))
