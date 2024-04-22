@@ -62,3 +62,40 @@ console.log(object.entries(tinderUser));
 
 
 console.log(tinderUser.hasOwnProperty('isLogged'))
+
+
+const course = {
+    coursename: "js in hindi",
+    price:"999",
+    courseInstructor: "Vaibhav"
+}
+
+// course.courseInstructor
+
+const {courseInstructor:instructor} = course
+
+console.log(instructor);
+
+
+// const navbar = ({company}) => {  ......destructoring
+
+// }
+     
+//      navbar(company = "Vsk Pvt. Ltd")
+
+
+
+//...............API.................
+
+
+// {                       ...........API call in JSON file
+//     name: "vaibahv",
+//     coursename: "js in hindi",
+//     price: "free"
+// }
+
+// [     .....Arrays call in json file of API
+//     {},
+//     {},
+//     {}
+// ]
