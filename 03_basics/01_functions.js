@@ -42,4 +42,46 @@ function loginUserMesaage(username = "sam"){ //default value sam
 }
 
 // console.log(loginUserMesaage("Vaibhav"));
-console.log(loginUserMesaage()) //....result: undefined
+// console.log(loginUserMesaage()) //....result: undefined
+
+
+function calculateCartPrice(...num1){    // ... - it is known as rest operator or spread operator it is call according to usecase
+
+//  rest help's in collecting in infinite number in the function 
+  return num1
+}
+console.log(calculateCartPrice(200,300,400,2000))
+
+
+// function calculateCartPrice(val1,val2, ...num1){ 
+//     return num1
+// }
+// console.log(calculateCartPrice(200,300,400,2000)) result:[400, 2000]
+
+
+const user = {
+      username: "vaibhav",
+      price: 199
+}
+
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+
+// handleObject(user)
+handleObject({
+    username: "sam",
+    price: 399
+})
+
+// handleObject(user)
+
+const myNewArray = [200,400,100,600]
+
+function returnSecondValue(getArray){
+   return getArray[1]
+}
+
+// console.log(returnSecondValue(myNewArray));
+console.log(returnSecondValue([200,400,500,1000]));
+
