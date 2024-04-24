@@ -13,13 +13,29 @@ console.log(a);
 
 
 function one(){
-    const username = "Viabhav"
+    const username = "Vaibhav"
 
     function two(){
         const website = "youtube"
         console.log(username);
     }
-    console.log(website);
-
+    console.log(website);   
     
+    two()
 }
+// +++++++++++++++++++ intersting +++++++++++++++++++++++++
+
+function addone(num){
+    return num + 1
+}
+
+addone(5)
+
+const addTwo = function(num){
+    return num + 2
+}
+addTwo(5)
+
+
+
+
