@@ -74,7 +74,7 @@ and another execution context is
                                                global execution
 
 ---------------------------------------------------------------
-           For result2:
+   For result2:
 
                                            New vairable 
                                             enviornment
