@@ -55,9 +55,28 @@ allocate space for variable and whatever we declare
 
  3.Execution Phase
  val1 <- 10
- val2 <- 5 
-
+ val2 <- 5      
                 new variable
- addNum ------> environment
-                     +
-                execution thread            
+ addNum ------> environment      <------ After it's work done
+                     +                    it is delete
+                execution thread    
+                   ^
+                   |
+        ----------- 
+       |
+  Memory Phase                 Execution Phase
+  val1 -> undefined -------->  num1 -> 10
+  val2 -> undefined            num2 -> 5
+  total -> undefined           total -> 15 --> Its goes to 
+                                               global execution
+
+---------------------------------------------------------------
+           For result2:
+
+                                           New vairable 
+                                            enviornment
+  Memory   <------  Execution   <-------         +
+  Phase              Phase                     Thread
+
+                
+                        
