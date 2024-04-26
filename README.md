@@ -9,7 +9,7 @@ A code repo for  Javascript series in self learning manner
 
 {} - Global Execution context it refer to the variables this  
 The global execution context is different every enviornment 
-The Most important global execution context is of browser and it's this value has window object
+The Most important global execution context is of browser and it's value has window object
 
 javascript is a single threaded language and it has everything is a process
 
@@ -27,9 +27,10 @@ and another execution context is
  { code }
 
  1. First Phase - Memory Creating phase
-allocate space for variable and whatever we declare  
+    Allocate space for variable and whatever we declare  
 
  2. Second Phase - execition phase
+    Where a variable is assign a value  
 
 
 
@@ -45,7 +46,9 @@ allocate space for variable and whatever we declare
 
 
  1.Global Execution
-       this 
+         |        
+       this
+         | 
  2.Memory Phase
    val1 -> undefined
    val2 -> undefined
@@ -64,10 +67,10 @@ allocate space for variable and whatever we declare
                    |
         ----------- 
        |
-  Memory Phase                 Execution Phase
-  val1 -> undefined -------->  num1 -> 10
-  val2 -> undefined            num2 -> 5
-  total -> undefined           total -> 15 --> Its goes to 
+  1.Memory Phase               2.Execution Phase
+    val1 -> undefined -------->  num1 -> 10
+    val2 -> undefined            num2 -> 5
+    total -> undefined           total -> 15 --> Its goes to 
                                                global execution
 
 ---------------------------------------------------------------
