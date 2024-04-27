@@ -46,3 +46,4 @@ if(userLoggedIn && debitCard && 2==2){
 if(loggedInFromGoogle || loggedInFromEmail || guestUser) {
   console.log("user logged in");
 }
+ 
